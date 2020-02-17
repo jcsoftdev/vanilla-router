@@ -71,15 +71,15 @@ const templateIndex = `
 `
 const routes = [
     {
-        path: '/',
+        path: '/vanilla-router/vanilla-router/',
         template: templateIndex
     },
     {
-        path: '/login',
+        path: '/vanilla-router/vanilla-router/login',
         template: templateLogin
     },
     {
-        path: '/register',
+        path: '/vanilla-router/vanilla-router/register',
         template: templateRegister
     },
 ]
