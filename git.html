@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Platzi Video</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a onclick="router.loadRoute('')"
+        ><img class="header__img" src="./assets/img/logo.png" alt="logo"
+      /></a>
+      <a onclick="router.loadRoute('login')">Login</a>
+      <a onclick="router.loadRoute('register')">Sign Up</a>
+      <div class="header__menu">
+        <div class="header__menu--profile">
+          <img src="./assets/img/icono.png" alt="User" />
+          <p>Profile</p>
+        </div>
+        <ul>
+          <li><a href="/">Account</a></li>
+          <li><a href="./login.html">Log Out</a></li>
+        </ul>
+      </div>
+    </header>
+    <div data-router>
+      
+    </div>
+    <footer class="footer">
+      <a href="/">Use Terms</a>
+      <a href="/">privacy statements</a>
+      <a href="/">Help</a>
+    </footer>
+    <script src="./js/routes.js"></script>
+    <script src="./js/router.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
