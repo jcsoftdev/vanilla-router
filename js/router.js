@@ -18,7 +18,8 @@ class Router{
             // console.log(urlSegs)
             console.log('rpsegs , ', routePathSegs)
             if (routePathSegs.length !== urlSegs.length) {
-                console.log(false)
+                console.log(routePathSegs)
+                console.log(urlSegs)
                 return false;
             }
             // return routePathSegs.every((routePathSeg, i)=>routePathSeg === urlSegs[i])
